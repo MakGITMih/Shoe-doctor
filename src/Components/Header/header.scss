@@ -1,7 +1,11 @@
+
+// header{background-color: aquamarine;}
+
 ul{
     
     list-style-type:none;
-    li{
-        color: red;
-    }
+    display: flex;
+    justify-content: space-between;
+  
+  
 }

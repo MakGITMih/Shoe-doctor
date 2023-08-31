@@ -5,9 +5,10 @@ function Header() {
         <>
             <header>
                 <ul>
-                    <li>1</li>
+                    <li>Инфо2</li>
+                    <li>Инфо</li>
                     <li>FAQ</li>
-                    <li>3</li>
+                    <li>лого</li>
                     <li>Галерея</li>
                     <li>Услуги</li>
                 </ul>
