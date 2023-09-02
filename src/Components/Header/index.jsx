@@ -1,16 +1,31 @@
 import './header.scss';
+import Logo from '../Assets/Images/logo.jpg';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
     return (
         <>
-            <header>
+            <header className='header'>
                 <ul>
-                    <li>Инфо2</li>
-                    <li>Инфо</li>
-                    <li>FAQ</li>
-                    <li>лого</li>
-                    <li>Галерея</li>
-                    <li>Услуги</li>
+                    <NavLink to={'/'} >
+                        <li>Главная</li>
+                    </NavLink>
+                    <NavLink to={'/faq'} >
+                        <li>FAQ
+                            {/* аккордеон */}
+                        </li>
+                    </NavLink>
+                    <NavLink to={'/'}>
+                        <img src={Logo} alt="Что то сломалось..." />
+                    </NavLink>
+                    <NavLink to={'/gallery'}>
+                        <li>Галерея
+                            {/* слайдер */}
+                        </li>
+                    </NavLink>
+                    <NavLink to={'/services'}>
+                        <li>Услуги</li>
+                    </NavLink>
                 </ul>
             </header>
         </>

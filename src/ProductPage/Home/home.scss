@@ -1,0 +1,8 @@
+@import '../../Components/Styles/index.scss';
+
+
+
+.home {
+    @extend %container-main;
+    background-color: aqua;
+}

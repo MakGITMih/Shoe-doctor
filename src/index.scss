@@ -1,4 +1,5 @@
 @import'./Components/Assets/Fonts';
+@import './Components/Styles/';
 
 .App {
   display: flex;
@@ -12,8 +13,11 @@
 
 body {
   font-family: 'Ubuntu',sans-serif;
-  font-weight: 100;
-  color: white;
-  // color: black;
+  font-weight: 700;
+  color: $color-base;
+  
 }
 
+a.active {
+  color:#F44336;
+}
