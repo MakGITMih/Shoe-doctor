@@ -1,14 +1,44 @@
 @import '../../Components/Styles/index.scss';
 
 .faq { 
-    background: rgb(92, 81, 81);
     @extend %container-main;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    div{
-        margin-top: 30px;
-    }
+    overflow: hidden;   
 }
+.faq__accordion {
+// background-color: aqua;
+
+}
+
+.faq__item{
+    // background-color: chartreuse;
+    
+    margin: 20px;
+    transition: height 1s;
+    padding: 15px;
+}
+
+.faq__header{
+    position: relative;
+    width: 100%;
+    transition: height 1s;
+    background-color: chocolate;
+}
+
+.faq__collapse{
+    height: 0;
+    overflow: hidden;
+    transition: height 1s;
+}
+
+.faq__collapse.open {
+    height: auto;
+    transition: height 1s;
+  }
+
+
+.faq__body{
+    background-color: red;
+    min-height: 50px;
+    transition: height 1s;
+}
+

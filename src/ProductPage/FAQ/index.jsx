@@ -1,13 +1,20 @@
+import Accordion from '../../Components/Accordion';
+
 import './faq.scss'
 
-function FAQ () {
-    return (
-        <>
-           <section className="faq">
-            <div>FAQ</div> 
-            </section>
-        </>
-    );
+
+
+
+
+function Faq () {
+
+  return (
+    <>
+    <div className='faq'>
+    <Accordion></Accordion>
+    </div>
+    </>
+);
 }
 
-export default FAQ;
+export default Faq;
