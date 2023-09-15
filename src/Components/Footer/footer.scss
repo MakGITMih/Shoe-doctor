@@ -2,24 +2,26 @@
 
 
 
-.footer{ 
+.footer {
+
     margin-top: auto;
+
     &-wrap {
-        // background-color: aqua;
+
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
         @extend %container-main;
         margin-bottom: 15px;
         padding-top: 15px;
-           div{
+
+        h3 {
             flex-grow: 1;
             font-size: $font-size-subtitle;
-            
             text-align: center;
         }
-        }
     }
+}
 
 
 

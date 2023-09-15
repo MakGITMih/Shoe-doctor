@@ -3,7 +3,9 @@ import './home.scss'
 function Home () {
     return (
         <>
-          <section className="home">Home</section>
+          <section className="home">
+            
+            </section>
         </>
     );
 }

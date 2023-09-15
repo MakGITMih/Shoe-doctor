@@ -1,12 +1,13 @@
 import './gallery.scss'
 
-function Gallery () {
+import Slider from '../../Components/Slider';
+
+function Gallery() {
     return (
         <>
-        <section className="gallery">
-        Gallery 
+            <section className="gallery">
+                <Slider ></Slider>
             </section>
-           
         </>
     );
 }

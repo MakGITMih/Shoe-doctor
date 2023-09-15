@@ -1,0 +1,66 @@
+@import '../Styles/index.scss';
+@import 'swiper/scss';
+// @import 'swiper/css';
+
+
+
+
+
+// .slider {
+
+//     &__container {
+//         display: flex;
+//         height: 650px;
+
+//         &__subtitle {
+//             text-align: center;
+//         }
+
+//         &__img_wrap {
+//             display: flex;
+//             height: 100%;
+//             background-color: #d3d3d3;
+
+//             &__imges {
+//                 object-fit: cover;
+//                 width: 100%;
+//             }
+//         }
+//     }
+// }
+
+
+
+
+
+.slider__container {
+    display: flex;
+    height: 700px;
+}
+
+.slider__subtitle {
+    text-align: center;
+    font-size: $font-size-subtitle;
+    margin-bottom: 20px;
+    // background-color: aqua;
+}
+
+.slider__img_wrap {
+    display: flex; 
+    height: 100%;
+    background-color: #d3d3d3;
+    
+}
+.slider__imges {
+    object-fit: cover;
+ width: 100%;
+
+}
+
+
+
+
+
+.swiper-button-prev:after{color: $color-red;}
+.swiper-button-next:after{color: $color-red;}
+.swiper-pagination-fraction{color: $color-red !important;}

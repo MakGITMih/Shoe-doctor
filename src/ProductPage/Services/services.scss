@@ -1,0 +1,18 @@
+@import '../../Components/Styles/index.scss';
+
+.services {
+    @extend %container-main;
+    margin-top: 20px;
+    width: 100%;
+
+         &__block {
+            display: flex;
+            justify-content: space-between;
+        //    background-color: blue;
+            &:hover { 
+                border-bottom: 5px solid $color-red;
+                color: $color-red;
+            }
+         }
+
+}
