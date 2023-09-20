@@ -4,7 +4,7 @@ import './accordion.scss'
 
 function AccordionItem({ faqItem, onClick, isOpen, }) {
 
-    const itemRef = useRef(null);
+    const itemRef = useRef(true);
 
 
     return (

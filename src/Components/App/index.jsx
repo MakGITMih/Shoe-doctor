@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <div className="App">
-       <Bg></Bg>
+       <Bg> </Bg>
 
         <Header></Header>
         <Routes>
@@ -28,6 +28,7 @@ function App() {
           <Route path='*' element = {<NotFound></NotFound>}></Route>
         </Routes>
         <Footer></Footer>
+       
       </div>
     </>
   );

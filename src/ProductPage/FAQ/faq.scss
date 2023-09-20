@@ -2,7 +2,9 @@
 
 .faq { 
     @extend %container-main;
-    overflow: hidden;   
+    overflow: hidden; 
+    // width: 100%; 
+    // min-height: 100vh;
 }
 .faq__accordion {
 // background-color: aqua;
@@ -12,9 +14,9 @@
 .faq__item{
     // background-color: chartreuse;
     
-    margin: 20px;
+    // margin: 20px;
     transition: height 1s;
-    padding: 15px;
+    // padding: 15px;
 }
 
 .faq__header{

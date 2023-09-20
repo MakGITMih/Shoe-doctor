@@ -35,14 +35,16 @@ function Services() {
 
 
     return (<section className='services'>
+        <div className='services__container'> 
         {pricelist.map((item, index) => {
             return (
                 <div className='services__block' key={index}>
-                    <div>{item.service}</div>
-                    <div>{item.price}</div>
+                    <div className=''>{item.service}</div>
+                    <div className=''>{item.price}</div>
                 </div>
             )
         })}
+    </div>
     </section>
     );
 }

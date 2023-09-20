@@ -1,14 +1,11 @@
 import './slider.scss';
-// import { Swiper, SwiperSlide, } from './swiper.mjs';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
-// import 'swiper/scss';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-// import 'swiper/swiper.scss';
-// import 'swiper/swiper.min.css';
-// import slides from './slider.json'
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+
 import slider1 from './slider1.jpg'
 import slider2 from './slider2.jpg'
 import slider3 from './slider3.jpg'
@@ -39,6 +36,7 @@ function Slider() {
         <section className='slider'>
             <div className='slider__container'>
                 <Swiper
+                    
                     spaceBetween={20}
                     slidesPerView={1}
                     grabCursor true
@@ -48,15 +46,17 @@ function Slider() {
                         type: 'fraction',
                     }}
                     navigation={true}
-                    modules={[Pagination, Navigation]}
+                    modules={[Pagination, Navigation]}                   
                 >
                     {arr.map((item) => (
+                        
                         <SwiperSlide key={item.image}>
                             <h3 className='slider__subtitle'>{item.title}</h3>
-                            <div className='slider__img_wrap'>
-                                <img className='slider__imges' src={item.image} alt={item.title} loading='lazy' />
+                            <div className='slider__img-wrap'>
+                                <img className='slider__imges' src={item.image} alt={item.title} />
                             </div>
                         </SwiperSlide>
+                       
                     ))}
                 </Swiper>
             </div>
