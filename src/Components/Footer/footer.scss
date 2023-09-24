@@ -13,19 +13,99 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        // @extend %container-main;
-        margin-bottom: 15px;
-        padding-top: 15px;
-        text-align: center;
         margin: 0px 5px;
-
+        padding: 15px 0px;
+        // text-align: center;
+        gap: 5px;
         h3 {
             flex-grow: 1;
             font-size: $font-size-subtitle;
             text-align: center;
         }
+        span{display: inline-block;}
+    }
+
+    &__address {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    &__info {
+        button {
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+        }
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    &__network {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+
+        .footer__social  {
+            width: 100%;
+            margin-top: 5px;
+         display: flex;
+         justify-content:space-between;
+         align-items: end; 
+         gap: 10px;
+        //  padding: 0px 5px;  
+    }  
     }
 }
 
 
+.footer__facebook {
+    fill:$color-red;
+    stroke: blue;
+    // background-color: aqua;
+    width: 32px;
+    height: 32px;
+    // border-radius: 49%;
+    // background-color: aliceblue;
+}
+.footer__youtube{
+    fill:$color-red;
 
+    stroke: blue;
+    width: 32px;
+    height: 32px;
+    // border-radius: 50%;
+    width: 100%;
+    // background-color: aqua;
+}
+.footer__instagram{
+    fill:$color-red;
+    // stroke: blue;
+    width: 32px;
+    height: 32px;
+    // border-radius: 50%;
+    width: 100%;
+    // background-color: aqua;
+
+}
+
+.footer__youtube{
+    max-width:32px;
+    // height: 32px;
+}
+
+.footer__instagram{
+    max-width:33px;
+}
+
+.footer__facebook{
+    max-width:31px;
+}

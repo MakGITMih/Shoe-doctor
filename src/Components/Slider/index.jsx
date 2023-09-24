@@ -14,7 +14,7 @@ import slider4 from './slider4.jpg'
 const arr = [
     {
         image: slider1,
-        title: 'Котыы'
+        title: 'Неожиданно коты'
     },
     {
         image: slider2,
@@ -35,8 +35,7 @@ function Slider() {
     return (
         <section className='slider'>
             <div className='slider__container'>
-                <Swiper
-                    
+                <Swiper className='slider__wrap'
                     spaceBetween={20}
                     slidesPerView={1}
                     grabCursor true
@@ -48,9 +47,8 @@ function Slider() {
                     navigation={true}
                     modules={[Pagination, Navigation]}                   
                 >
-                    {arr.map((item) => (
-                        
-                        <SwiperSlide key={item.image}>
+                    {arr.map((item) => (                      
+                        <SwiperSlide className='slider__slide' key={item.image}>
                             <h3 className='slider__subtitle'>{item.title}</h3>
                             <div className='slider__img-wrap'>
                                 <img className='slider__imges' src={item.image} alt={item.title} />
