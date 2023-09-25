@@ -7,14 +7,13 @@ function MapYandex() {
         <>
             <section className="map">
                 <YMaps>
-                    {/* <div>My awesome application with maps!</div> */}
                     <Map defaultState={{
                         center: [59.827727, 30.327034], zoom: 15,
                     }}
                         width='100%'
-                    //  height="300px"
+                        height="400px"
                     >
-                        <Placemark geometry={[59.827694, 30.327079]} />
+                        <Placemark geometry={[59.827694, 30.327079]}></Placemark>
                     </Map>
                 </YMaps>
             </section>

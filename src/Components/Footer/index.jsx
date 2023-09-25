@@ -1,13 +1,11 @@
 import './footer.scss';
+
 import Modal from '../Modal'
-import React, { useState } from "react";
-import MapYandex from '../MapYandex';
-// import { ReactComponent as Instagram } from './instagram.svg'
-// import { ReactComponent as Youtube }  from './youtube.svg'
-// import { ReactComponent as Facebook }  from './facebook.svg'
 import Youtube from './youtube.png'
 import Instagram from './instagram.png'
 import Facebook from './facebook.png'
+
+import React, { useState } from "react";
 
 function Footer() {
 
@@ -28,16 +26,6 @@ function Footer() {
             <Modal
               isOpen={modalInfoIsOpen}
               onClose={() => setModalInfoOpen(false)}>
-              <h2>Клевое модальное окно!</h2>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo,
-                dolorum dolore vero eligendi cum iusto ea quam perspiciatis
-                veritatis rem cupiditate a in, aliquam pariatur.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo,
-                dolorum dolore vero eligendi cum iusto ea quam perspiciatis
-                veritatis rem cupiditate a in, aliquam pariatur.
-              </p>
-              <div><MapYandex></MapYandex></div>
             </Modal>
           </div>
           <div className='footer__contact'>
@@ -49,17 +37,17 @@ function Footer() {
             <h3>Я в сетях&nbsp;:</h3>
             <div className='footer__social'>
               <div className="footer__youtube">
-                <a href="https://www.youtube.com/" target='_blank'>
+                <a href="https://www.youtube.com/" rel='noopener' target='_blank' >
                   <img src={Youtube} alt="Что то сломалось..." />
                 </a>
               </div>
               <div className="footer__instagram">
-                <a href="https://www.instagram.com/" target='_blank'>
+                <a href="https://www.instagram.com/" rel='noopener' target='_blank'>
                   <img src={Instagram} alt="Что то сломалось..." />
                 </a>
               </div>
               <div className="footer__facebook">
-                <a href="https://ru-ru.facebook.com/" target='_blank'>
+                <a href="https://ru-ru.facebook.com/" rel='noopener' target='_blank'>
                   <img src={Facebook} alt="Что то сломалось..." />
                 </a>
               </div>

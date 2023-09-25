@@ -6,15 +6,15 @@ import './faq.scss'
 
 
 
-function Faq () {
+function Faq() {
 
   return (
     <>
-    <div className='faq'>
-    <Accordion></Accordion>
-    </div>
+      <div className='faq'>
+        <Accordion></Accordion>
+      </div>
     </>
-);
+  );
 }
 
 export default Faq;

@@ -5,7 +5,6 @@
 .footer {
 
     margin-top: auto;
-    // background-color: aqua;
     @extend %container-main;
     width: 100%;
 
@@ -15,97 +14,105 @@
         align-items: flex-start;
         margin: 0px 5px;
         padding: 15px 0px;
-        // text-align: center;
+        font-size: $font-size-text;
+        font-weight: 700;
         gap: 5px;
+
         h3 {
             flex-grow: 1;
             font-size: $font-size-subtitle;
             text-align: center;
+            padding-bottom: 10px;
+            animation: bounce 90s  infinite;
         }
-        span{display: inline-block;}
+
     }
 
     &__address {
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
     }
 
     &__info {
+        position: relative;
+
+
         button {
             display: flex;
             flex-direction: column;
-            justify-content:center;
+            justify-content: center;
             align-items: center;
+            font-weight: 700;
+            // animation: bounce 90s  infinite;
         }
     }
 
     &__contact {
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
+        
     }
 
     &__network {
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
 
-        .footer__social  {
+        .footer__social {
             width: 100%;
             margin-top: 5px;
-         display: flex;
-         justify-content:space-between;
-         align-items: end; 
-         gap: 10px;
-        //  padding: 0px 5px;  
-    }  
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            gap: 10px;
+
+            .footer__facebook {
+                max-width: 31px;
+                max-height: 31px;
+            }
+
+            .footer__youtube {
+                max-width: 32px;
+                max-height: 32px;
+            }
+
+            .footer__instagram {
+                max-width: 33px;
+                max-height: 33px;
+            }
+
+        }
     }
 }
 
+@keyframes bounce {
+    0% {
+        color: white;
+        // transform: rotateY(0deg);
+    }
 
-.footer__facebook {
-    fill:$color-red;
-    stroke: blue;
-    // background-color: aqua;
-    width: 32px;
-    height: 32px;
-    // border-radius: 49%;
-    // background-color: aliceblue;
-}
-.footer__youtube{
-    fill:$color-red;
+    25% {
+        color: white;
+        // transform: rotateY(0deg);
+    }
 
-    stroke: blue;
-    width: 32px;
-    height: 32px;
-    // border-radius: 50%;
-    width: 100%;
-    // background-color: aqua;
-}
-.footer__instagram{
-    fill:$color-red;
-    // stroke: blue;
-    width: 32px;
-    height: 32px;
-    // border-radius: 50%;
-    width: 100%;
-    // background-color: aqua;
+    50% {
+        color: white;
+        // transform: rotateY(0deg);
+    }
 
-}
+    99% {
+        color: $color-red;
+        // transform: rotateY(360deg);
+    }
 
-.footer__youtube{
-    max-width:32px;
-    // height: 32px;
-}
-
-.footer__instagram{
-    max-width:33px;
-}
-
-.footer__facebook{
-    max-width:31px;
+    100% {
+        color: white;
+        // transform: rotateY(0deg);
+    }
 }

@@ -35,29 +35,23 @@ const faqList = [
 ];
 
 
-function Accordion () {
+function Accordion() {
 
   const [openId, setId] = useState(null);
 
-  // const clickHandler = (id) => {
-  //   if (id === openId) setId (null)
-  //   else setId (id)
-  // }
-
   return <ul className='accordion'>
-    {faqList.map((faqItem,id) =>{
+    {faqList.map((faqItem, id) => {
       return (
         <AccordionItem
           onClick={() => (id === openId ? setId(null) : setId(id))}
           faqItem={faqItem}
-          
           isOpen={id === openId}
           key={id}>
         </AccordionItem>
       )
     })}
   </ul>
-    
+
 };
 
 

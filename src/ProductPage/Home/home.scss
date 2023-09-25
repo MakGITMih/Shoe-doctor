@@ -5,13 +5,15 @@
 .home {
     @extend %container-main;
     margin-top: 50px;
-    h1 {font-size: $font-size-title;color: $color-red;}
-    div { 
-        font-size:$font-size-subtitle;
-        padding: 10px;
-        margin: 10px;
-        
+
+    h1 {
+        font-size: $font-size-title;
+        color: $color-red;
     }
 
+    div {
+        font-size: $font-size-subtitle;
+        padding: 10px;
+        margin: 10px;
+    }
 }
-

@@ -4,19 +4,16 @@
     @extend %container-main;
     margin-top: 20px;
     width: 100%;
-    // background-color: blue;
 
     &__container {
-        
-       
         margin: 0px 5px;
 
         .services__block {
             display: flex;
             justify-content: space-between;
-            // background-color: aquamarine;
             font-size: $font-size-subtitle ;
             padding: 20px 0px;
+
             &:hover {
                 border-bottom: 5px solid $color-red;
                 color: $color-red;

@@ -32,6 +32,7 @@ const arr = [
 
 
 function Slider() {
+
     return (
         <section className='slider'>
             <div className='slider__container'>
@@ -45,16 +46,16 @@ function Slider() {
                         type: 'fraction',
                     }}
                     navigation={true}
-                    modules={[Pagination, Navigation]}                   
+                    modules={[Pagination, Navigation]}
                 >
-                    {arr.map((item) => (                      
+                    {arr.map((item) => (
                         <SwiperSlide className='slider__slide' key={item.image}>
                             <h3 className='slider__subtitle'>{item.title}</h3>
                             <div className='slider__img-wrap'>
                                 <img className='slider__imges' src={item.image} alt={item.title} />
                             </div>
                         </SwiperSlide>
-                       
+
                     ))}
                 </Swiper>
             </div>

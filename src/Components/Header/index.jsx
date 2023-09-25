@@ -1,8 +1,11 @@
 import './header.scss';
+
 import Logo from '../Assets/Images/logo.jpg';
+
 import { NavLink } from 'react-router-dom';
 
 function Header() {
+
     return (
         <>
             <header className='header'>
@@ -11,17 +14,13 @@ function Header() {
                         <li>Главная</li>
                     </NavLink>
                     <NavLink to={'/faq'} >
-                        <li>FAQ
-                            {/* аккордеон */}
-                        </li>
+                        <li>FAQ</li>
                     </NavLink>
                     <NavLink to={'/'}>
                         <img src={Logo} alt="Что то сломалось..." />
                     </NavLink>
                     <NavLink to={'/gallery'}>
-                        <li>Галерея
-                            {/* слайдер */}
-                        </li>
+                        <li>Галерея</li>
                     </NavLink>
                     <NavLink to={'/services'}>
                         <li>Услуги</li>

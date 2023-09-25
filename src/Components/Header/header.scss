@@ -9,29 +9,30 @@
         justify-content: space-between;
         align-items: center;
         @extend %container-main;
-        
+
 
         li {
             // font-size: 25px;
-            font-size:$font-size-title;
+            font-size: $font-size-title;
             font-style: normal;
             font-weight: 700;
             position: relative;
             cursor: pointer;
             margin: 0px 5px;
-            
+
 
             &:after {
                 display: block;
                 position: absolute;
-                left: 50%; transform: translateX(-50%); //из центра в стороны
+                left: 50%;
+                transform: translateX(-50%); //из центра в стороны
                 // left: 0;
                 /*изменить на right:0;, чтобы изменить направление подчёркивания */
                 width: 0;
                 /*задаём длинну линии до наведения курсора*/
                 height: 4px;
                 /*задаём ширину линии*/
-                background-color:$color-red;
+                background-color: $color-red;
                 /*задаём цвет линии*/
                 content: "";
                 transition: width 0.3s ease-out;
@@ -48,10 +49,12 @@
         img {
             border-radius: 50%;
             max-width: 120px;
+
             @media (max-width:600px) {
-                max-width: 110px; 
+                max-width: 110px;
             }
         }
     }
 }
+
 // .active{color: red; background-color: aqua;}

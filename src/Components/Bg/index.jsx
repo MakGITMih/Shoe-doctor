@@ -10,7 +10,7 @@ function Bg() {
         <>
             <video
                 src={VideoBg}
-                autoPlay loop muted
+            autoPlay loop muted
             ></video>
             <div className="overley"></div>
         </>

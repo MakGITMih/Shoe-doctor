@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { ReactComponent as ArrowIcon } from './arrow-icon.svg'
+
 import './accordion.scss'
 
 function AccordionItem({ faqItem, onClick, isOpen, }) {
@@ -9,7 +10,7 @@ function AccordionItem({ faqItem, onClick, isOpen, }) {
 
     return (
         <li className='accordion-item' >
-            <button className='accordion-header'onClick={() => onClick()}>
+            <button className='accordion-header' onClick={() => onClick()}>
                 {faqItem.q}
                 <ArrowIcon className={`accordion-arrow ${isOpen ? "active" : ""}`}></ArrowIcon>
             </button>
