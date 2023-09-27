@@ -6,7 +6,7 @@ function Gallery() {
     return (
         <>
             <section className="gallery">
-                <Slider ></Slider>
+                <Slider className="gallery-slider" ></Slider>
             </section>
         </>
     );

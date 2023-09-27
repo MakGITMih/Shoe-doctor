@@ -37,6 +37,22 @@
             max-width: 481px;
         }
 
+        @media (max-width:483px) {
+            max-width: 433px;
+        }
+
+        @media (max-width:435px) {
+            max-width: 390px;
+        }
+
+        @media (max-width:392px) {
+            max-width: 350px;
+        }
+
+        @media (max-width:352px) {
+            max-width: 318px;
+        }
+
         .slider__subtitle {
             text-align: center;
             font-size: $font-size-subtitle;

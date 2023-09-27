@@ -5,21 +5,25 @@
     margin: 15px 0px;
 
     ul {
+        @extend %container-main;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        @extend %container-main;
 
+
+        @media (max-width:370px) {
+            width: 70%;
+            flex-wrap: wrap;
+            flex-grow: 1;
+        }
 
         li {
-            // font-size: 25px;
             font-size: $font-size-title;
             font-style: normal;
             font-weight: 700;
             position: relative;
             cursor: pointer;
-            margin: 0px 5px;
-
+            margin: 5px 5px;
 
             &:after {
                 display: block;
@@ -53,8 +57,10 @@
             @media (max-width:600px) {
                 max-width: 110px;
             }
+
+            @media (max-width:500px) {
+                display: none;
+            }
         }
     }
 }
-
-// .active{color: red; background-color: aqua;}

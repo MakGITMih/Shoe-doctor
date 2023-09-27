@@ -11,10 +11,10 @@ function Header() {
             <header className='header'>
                 <ul>
                     <NavLink to={'/'} >
-                        <li>Главная</li>
+                        <li >Главная</li>
                     </NavLink>
                     <NavLink to={'/faq'} >
-                        <li>FAQ</li>
+                        <li >FAQ</li>
                     </NavLink>
                     <NavLink to={'/'}>
                         <img src={Logo} alt="Что то сломалось..." />

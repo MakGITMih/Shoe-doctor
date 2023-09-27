@@ -11,6 +11,7 @@ function Footer() {
 
   const [modalInfoIsOpen, setModalInfoOpen] = useState(false);
 
+
   return (
     <>
       <footer className='footer'>
@@ -18,7 +19,7 @@ function Footer() {
           <div className='footer__address'>
             <h3 >Адрес :</h3>
             <span>Санкт-Петербург</span>
-            <span>Пулковское ш 20 кор 4</span>
+            <span>Пулковское ш 20 кор&nbsp;4</span>
           </div>
           <div className='footer__info'>
             <h3 >Инфо :</h3>

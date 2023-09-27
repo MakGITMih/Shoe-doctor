@@ -19,7 +19,7 @@ function Modal({ isOpen, onClose, children }) {
                     <div className='modal-wrapper' onClick={onWrapperClick}>
                         <div className="modal-content">
                             <button className="modal-close-button" onClick={() => onClose()}>
-                                <IconClose></IconClose>
+                                <IconClose className="modal-close"></IconClose>
                             </button>
                             <h2 >График работы.</h2>
                             <p>
@@ -29,8 +29,6 @@ function Modal({ isOpen, onClose, children }) {
                             {children}
                             <div><MapYandex></MapYandex></div>
                         </div>
-
-
                     </div>
                 </section>
             )}

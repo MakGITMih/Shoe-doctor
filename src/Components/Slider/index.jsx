@@ -32,11 +32,10 @@ const arr = [
 
 
 function Slider() {
-
     return (
         <section className='slider'>
             <div className='slider__container'>
-                <Swiper className='slider__wrap'
+                <Swiper
                     spaceBetween={20}
                     slidesPerView={1}
                     grabCursor true
@@ -49,13 +48,12 @@ function Slider() {
                     modules={[Pagination, Navigation]}
                 >
                     {arr.map((item) => (
-                        <SwiperSlide className='slider__slide' key={item.image}>
+                        <SwiperSlide key={item.image}>
                             <h3 className='slider__subtitle'>{item.title}</h3>
                             <div className='slider__img-wrap'>
                                 <img className='slider__imges' src={item.image} alt={item.title} />
                             </div>
                         </SwiperSlide>
-
                     ))}
                 </Swiper>
             </div>

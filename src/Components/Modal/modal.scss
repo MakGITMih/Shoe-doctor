@@ -22,12 +22,12 @@
     align-items: center;
     width: 100%;
     min-height: 100%;
+    padding: 0px 2px;
   }
 
   &-content {
     text-align: center;
     position: relative;
-    margin: 20px;
     width: 100%;
     max-width: 1010px;
     border-radius: 20px;
@@ -52,7 +52,7 @@
     }
   }
 
-  &-close-button {
+  .modal-close {
     position: absolute;
     top: 16px;
     right: 16px;
