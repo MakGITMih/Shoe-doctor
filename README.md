@@ -1,3 +1,23 @@
+# Project 'Shoe-doctor'
+
+## Used Technologies:
+### React JS 18
+Props\
+React Hooks(useState,useEffect,useRef)\
+React Router 
+### SASS/SCSS
+
+## Implemented:
+### Functional Components
+### Yandex maps integration 
+### Modal window
+### Accordion
+### Slider swiper
+### Video background
+### Conditional rendering
+### BEM methodology
+### Responsive layout
+### Media queries
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
