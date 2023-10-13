@@ -24,7 +24,7 @@ function Header() {
                     </NavLink>
                     <NavLink to={'/services'}>
                         <li>Услуги</li>
-                    </NavLink>
+                    </NavLink>                               
                 </ul>
             </header>
         </>
