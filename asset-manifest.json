@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Shoe-doctor/static/css/main.7bc08791.css",
-    "main.js": "/Shoe-doctor/static/js/main.703f1ba6.js",
+    "main.js": "/Shoe-doctor/static/js/main.5ed81c7b.js",
     "static/media/VideoBg.mp4": "/Shoe-doctor/static/media/VideoBg.33dadc911ad791075e1c.mp4",
     "static/media/slider4.jpg": "/Shoe-doctor/static/media/slider4.77b63fd35b6f6a4966a2.jpg",
     "static/media/slider3.jpg": "/Shoe-doctor/static/media/slider3.d20e66d9c735157f39e8.jpg",
@@ -23,10 +23,10 @@
     "static/media/arrow-icon.svg": "/Shoe-doctor/static/media/arrow-icon.d3946267ce12b26ad160376d24acb82b.svg",
     "static/media/icon-close.svg": "/Shoe-doctor/static/media/icon-close.a550795a5fd03667f18550c682f199a1.svg",
     "main.7bc08791.css.map": "/Shoe-doctor/static/css/main.7bc08791.css.map",
-    "main.703f1ba6.js.map": "/Shoe-doctor/static/js/main.703f1ba6.js.map"
+    "main.5ed81c7b.js.map": "/Shoe-doctor/static/js/main.5ed81c7b.js.map"
   },
   "entrypoints": [
     "static/css/main.7bc08791.css",
-    "static/js/main.703f1ba6.js"
+    "static/js/main.5ed81c7b.js"
   ]
 }
