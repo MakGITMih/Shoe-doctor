@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Shoe-doctor/static/css/main.7bc08791.css",
+    "main.js": "/Shoe-doctor/static/js/main.703f1ba6.js",
+    "static/media/VideoBg.mp4": "/Shoe-doctor/static/media/VideoBg.33dadc911ad791075e1c.mp4",
+    "static/media/slider4.jpg": "/Shoe-doctor/static/media/slider4.77b63fd35b6f6a4966a2.jpg",
+    "static/media/slider3.jpg": "/Shoe-doctor/static/media/slider3.d20e66d9c735157f39e8.jpg",
+    "static/media/slider2.jpg": "/Shoe-doctor/static/media/slider2.81848168f755c8ab678a.jpg",
+    "static/media/slider1.jpg": "/Shoe-doctor/static/media/slider1.9d9bcb2eaf1b8d8c6882.jpg",
+    "static/media/Ubuntu-Light.woff": "/Shoe-doctor/static/media/Ubuntu-Light.086e75a1a140620262f4.woff",
+    "static/media/Ubuntu-LightItalic.woff": "/Shoe-doctor/static/media/Ubuntu-LightItalic.a3ad215537c8f6accc8c.woff",
+    "static/media/Ubuntu-Italic.woff": "/Shoe-doctor/static/media/Ubuntu-Italic.1f4ab192c978d94514ca.woff",
+    "static/media/Ubuntu-MediumItalic.woff": "/Shoe-doctor/static/media/Ubuntu-MediumItalic.c1fa06a8fb16aed99be7.woff",
+    "static/media/Ubuntu-Regular.woff": "/Shoe-doctor/static/media/Ubuntu-Regular.abfd94df199d45f34ea8.woff",
+    "static/media/Ubuntu-BoldItalic.woff": "/Shoe-doctor/static/media/Ubuntu-BoldItalic.9cf20b1d5576dead60c9.woff",
+    "static/media/Ubuntu-Medium.woff": "/Shoe-doctor/static/media/Ubuntu-Medium.5c7c90649380d5a3b2c7.woff",
+    "static/media/Ubuntu-Bold.woff": "/Shoe-doctor/static/media/Ubuntu-Bold.fb516a328aa972109935.woff",
+    "static/media/instagram.png": "/Shoe-doctor/static/media/instagram.1792ff30fb032c94685c.png",
+    "static/media/youtube.png": "/Shoe-doctor/static/media/youtube.060528b6e83f2004078d.png",
+    "static/media/logo.jpg": "/Shoe-doctor/static/media/logo.87ce9a44e711c74507d4.jpg",
+    "static/media/facebook.png": "/Shoe-doctor/static/media/facebook.49e67d43221b6bb1aa86.png",
+    "index.html": "/Shoe-doctor/index.html",
+    "static/media/arrow-icon.svg": "/Shoe-doctor/static/media/arrow-icon.d3946267ce12b26ad160376d24acb82b.svg",
+    "static/media/icon-close.svg": "/Shoe-doctor/static/media/icon-close.a550795a5fd03667f18550c682f199a1.svg",
+    "main.7bc08791.css.map": "/Shoe-doctor/static/css/main.7bc08791.css.map",
+    "main.703f1ba6.js.map": "/Shoe-doctor/static/js/main.703f1ba6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bc08791.css",
+    "static/js/main.703f1ba6.js"
+  ]
+}
